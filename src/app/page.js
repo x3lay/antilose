@@ -18,8 +18,4 @@ export default function Home() {
       <Footer />
     </main>
   );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e4ac8c7d2478929db3a79aa4fcb162622f664ae0
