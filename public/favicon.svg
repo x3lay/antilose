@@ -1,0 +1,30 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9600" />
+      <stop offset="100%" stop-color="#FFCC00" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagon shape for favicon -->
+  <path d="M16,4 L28,10 L28,22 L16,28 L4,22 L4,10 Z"
+        fill="black"
+        stroke="url(#logoGradient)"
+        stroke-width="1.5" />
+
+  <!-- E letter inside -->
+  <g fill="none" stroke="url(#logoGradient)" stroke-width="2" stroke-linecap="round">
+    <path d="M12 10 L12 22" />
+    <path d="M12 10 L20 10" />
+    <path d="M12 16 L18 16" />
+    <path d="M12 22 L20 22" />
+  </g>
+
+  <!-- Subtle glow effect -->
+  <path d="M16,4 L28,10 L28,22 L16,28 L4,22 L4,10 Z"
+        fill="none"
+        stroke="url(#logoGradient)"
+        stroke-width="3"
+        opacity="0.3"
+        filter="blur(3px)" />
+</svg>

@@ -1,0 +1,48 @@
+<svg width="160" height="48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9600" />
+      <stop offset="100%" stop-color="#FFCC00" />
+    </linearGradient>
+  </defs>
+
+  <g fill="none" stroke="url(#logoGradient)" stroke-width="2" stroke-linecap="round">
+    <!-- E -->
+    <path d="M32 12 L32 36" />
+    <path d="M32 12 L44 12" />
+    <path d="M32 24 L40 24" />
+    <path d="M32 36 L44 36" />
+
+    <!-- L -->
+    <path d="M52 12 L52 36" />
+    <path d="M52 36 L64 36" />
+
+    <!-- I -->
+    <path d="M72 12 L72 36" />
+
+    <!-- T -->
+    <path d="M80 12 L96 12" />
+    <path d="M88 12 L88 36" />
+
+    <!-- E -->
+    <path d="M104 12 L104 36" />
+    <path d="M104 12 L116 12" />
+    <path d="M104 24 L112 24" />
+    <path d="M104 36 L116 36" />
+  </g>
+
+  <!-- Hexagon shape around the logo -->
+  <path d="M24,24 L30,12 L50,6 L90,6 L110,12 L116,24 L110,36 L90,42 L50,42 L30,36 Z"
+        fill="none"
+        stroke="url(#logoGradient)"
+        stroke-width="1.5"
+        opacity="0.7" />
+
+  <!-- Subtle glowing effect -->
+  <path d="M24,24 L30,12 L50,6 L90,6 L110,12 L116,24 L110,36 L90,42 L50,42 L30,36 Z"
+        fill="none"
+        stroke="url(#logoGradient)"
+        stroke-width="3"
+        opacity="0.2"
+        filter="blur(4px)" />
+</svg>
